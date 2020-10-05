@@ -1,0 +1,19 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+A <- matrix(c(5,-4,-1,1),2,2,TRUE)
+B <- c(-10,2)
+
+solve(A,B)
+echelon(A,B, verbose=TRUE, fraction=TRUE)
+```
+```{r}
+X <- matrix(c(1,1,1,2,3,5,4,0,5),3,3,TRUE)
+Y <- c(5,8,2)
+
+solve(X,Y)
+echelon(X,Y, verbose=TRUE, fraction=TRUE)
+```
