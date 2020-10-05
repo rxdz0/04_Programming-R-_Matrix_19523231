@@ -1,0 +1,35 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+A <- matrix(c(5,-4,-1,1),2,2,TRUE)
+B <- c(-10,2)
+
+solve(A,B)
+```
+
+
+```{r}
+X <- matrix(c(4,-2,0,5,-2,1,3,4,-1),3,3,TRUE)
+Y <- c(2,7,3)
+
+solve(X,Y)
+```
+
+```{r}
+M <- matrix(c(1,1,1,2,3,5,4,0,5),3,3,TRUE)
+N <- c(5,8,2)
+
+solve(M,N)
+```
+
+
+```{r}
+O <- matrix(c(2,5,1,-1,4,3,5,0,-2),3,3,TRUE)
+P <- c(-12,-4,-13)
+
+solve(O,P)
+```
